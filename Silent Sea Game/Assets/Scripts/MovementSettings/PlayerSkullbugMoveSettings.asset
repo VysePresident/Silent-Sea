@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb5420c195a39749bde25ff14fc0b73, type: 3}
+  m_Name: PlayerSkullbugMoveSettings
+  m_EditorClassIdentifier: 
+  horizontalMoveSpeed: 10
+  verticalMoveSpeed: 10
+  airbornTimeToSpeed: 0.1
+  groundedTimeToSpeed: 0.1
+  maxIncline: 80
+  maxDecline: 80
+  maxJumpHeight: 5
+  minJumpHeight: 0.2
+  timeToJumpApex: 0.4
+  maxNumJumps: 1
+  direct: 0
+  cyclic: 0
+  useLocalNodes: 0
